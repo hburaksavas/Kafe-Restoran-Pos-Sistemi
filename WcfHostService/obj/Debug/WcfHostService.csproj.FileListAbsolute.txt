@@ -1,0 +1,22 @@
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\WcfHostService.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\WcfHostService.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\WcfServiceLibrary.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\BLL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\WcfServiceLibrary.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\BLL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\bin\Debug\DAL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\obj\Debug\WcfHostService.csprojResolveAssemblyReference.cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\obj\Debug\WcfHostService.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\WcfHostService\obj\Debug\WcfHostService.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\WcfHostService.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\WcfHostService.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\WcfServiceLibrary.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\BLL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\WcfServiceLibrary.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\BLL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\bin\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\obj\Debug\WcfHostService.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\obj\Debug\WcfHostService.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\WcfHostService\obj\Debug\WcfHostService.pdb

@@ -1,0 +1,62 @@
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.exe
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\WcfHostService.dll
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\WcfServiceLibrary.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\Android.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\BLL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.exe.config
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\Android.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\WcfHostService.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\BLL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\WcfServiceLibrary.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\DAL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.csprojResolveAssemblyReference.cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.AnaSayfa.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Properties.Resources.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.csproj.GenerateResource.Cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.exe
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.pdb
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.AdisyonRaporu.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.YoneticiAnasayfa.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Kategori_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\itextsharp.dll
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\bin\Debug\itextsharp.xml
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Kullanici_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Listeleme_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Masa_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Urun_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Yonetici_Islemleri.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.UyariPenceresi.resources
+C:\Users\Onur Tekin\Documents\Visual Studio 2015\Projects\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Restorant_Durum.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.exe.config
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.exe
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\ServerAnaSayfa.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\Android.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\BLL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\WcfHostService.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\WcfServiceLibrary.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\Android.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\BLL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\WcfHostService.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\itextsharp.xml
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\bin\Debug\WcfServiceLibrary.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.AdisyonRaporu.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.AnaSayfa.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Kategori_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Kullanici_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Listeleme_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Masa_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Restorant_Durum.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Urun_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Form_Yonetici_Islemleri.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.Properties.Resources.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.UyariPenceresi.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.YoneticiAnasayfa.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.csproj.GenerateResource.Cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.exe
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ServerAnaSayfa\obj\Debug\ServerAnaSayfa.pdb

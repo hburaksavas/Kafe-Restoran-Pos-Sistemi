@@ -1,0 +1,23 @@
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.exe.config
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.exe
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.formClientAnaSayfa.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.HesapPenceresi.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.Properties.Resources.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.SiparisSayfasi.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.UyariPenceresi.resources
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.csproj.GenerateResource.Cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.exe
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.exe.config
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.exe
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\bin\Debug\ClientAnaSayfa.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.formClientAnaSayfa.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.HesapPenceresi.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.Properties.Resources.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.SiparisSayfasi.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.UyariPenceresi.resources
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.csproj.GenerateResource.Cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.exe
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\ClientAnaSayfa\obj\Debug\ClientAnaSayfa.pdb

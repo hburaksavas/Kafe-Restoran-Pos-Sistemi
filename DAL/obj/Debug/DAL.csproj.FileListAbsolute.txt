@@ -1,0 +1,9 @@
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\DAL\bin\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\DAL\bin\Debug\DAL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\DAL\obj\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\DAL\obj\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\DAL\bin\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\DAL\bin\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\DAL\obj\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\DAL\obj\Debug\DAL.pdb

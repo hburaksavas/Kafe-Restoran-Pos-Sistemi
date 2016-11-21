@@ -1,0 +1,18 @@
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\Android.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\Android.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\BLL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\BLL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\bin\Debug\DAL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\obj\Debug\Android.csprojResolveAssemblyReference.cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\obj\Debug\Android.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\Android\obj\Debug\Android.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\Android.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\Android.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\BLL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\BLL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\bin\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\obj\Debug\Android.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\obj\Debug\Android.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\Android\obj\Debug\Android.pdb

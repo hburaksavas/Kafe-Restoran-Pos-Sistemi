@@ -1,0 +1,14 @@
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\bin\Debug\BLL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\bin\Debug\BLL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\bin\Debug\DAL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\bin\Debug\DAL.pdb
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\obj\Debug\BLL.dll
+C:\Users\Onur Tekin\documents\visual studio 2015\Projects\KafeServis\BLL\obj\Debug\BLL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\bin\Debug\BLL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\bin\Debug\BLL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\bin\Debug\DAL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\bin\Debug\DAL.pdb
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\obj\Debug\BLL.dll
+C:\DOC\14 - PROJECTS\KafeServis29.04.2016\KafeServis\BLL\obj\Debug\BLL.pdb

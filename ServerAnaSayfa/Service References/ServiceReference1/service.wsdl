@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IService1_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <wsam:Addressing>
+          <wsp:Policy>
+            <wsam:AnonymousResponses>
+            </wsam:AnonymousResponses>
+          </wsp:Policy>
+        </wsam:Addressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TestDataTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestDataTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TestDataTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TestDataSet_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestDataSet" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TestDataSet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciEkle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciEkle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciEkle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciEkleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciGuncelle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciGuncelle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullanicilariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullanicilariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullanicilariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullanicilariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_garsonlariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_garsonlariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_garsonlariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_garsonlariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_yoneticileriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_yoneticileriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_yoneticileriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_yoneticileriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciGiris_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciGiris" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciGiris_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciGirisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciVarmi_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciVarmi" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciVarmi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciVarmiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciBilgileriniGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciBilgileriniGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciBilgileriniGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciBilgileriniGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciAdSoyadGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciAdSoyadGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_kullaniciAdSoyadGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_kullaniciAdSoyadGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_tumGarsonlarinAdSoyadlari_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_tumGarsonlarinAdSoyadlari" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_tumGarsonlarinAdSoyadlari_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_tumGarsonlarinAdSoyadlariResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaEkle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaEkle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaEkle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaEkleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaGuncelle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaGuncelle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masalariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masalariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masalariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masalariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_acikMasalariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_acikMasalariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_acikMasalariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_acikMasalariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_bosMasalariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_bosMasalariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_bosMasalariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_bosMasalariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaBilgileriniGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaBilgileriniGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaBilgileriniGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaBilgileriniGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaAc_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaAc" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaAc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaAcResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaHesapGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaHesapGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaHesapGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaHesapGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaDurumGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaDurumGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaDurumGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaDurumGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaKapat_InputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaKapat" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Tables_masaKapat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Tables_masaKapatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunEkle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunEkle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunEkle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunEkleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunSiparisleriyleSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunSiparisleriyleSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunSiparisleriyleSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunSiparisleriyleSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoridekiUrunleriSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoridekiUrunleriSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoridekiUrunleriSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoridekiUrunleriSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunGuncelle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunGuncelle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunleriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunleriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_akfitUrunleriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_akfitUrunleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_akfitUrunleriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_akfitUrunleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeGoreUrunleriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeGoreUrunleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeGoreUrunleriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeGoreUrunleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunleriSiraliGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunleriSiraliGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunleriSiraliGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunleriSiraliGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeGoreUrunleriSiraliGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeGoreUrunleriSiraliGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeGoreUrunleriSiraliGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeGoreUrunleriSiraliGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunBilgileriniGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunBilgileriniGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunBilgileriniGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunBilgileriniGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunFiyatGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunFiyatGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunFiyatGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunFiyatGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunDurumGuncelle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunDurumGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_urunDurumGuncelle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_urunDurumGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeAitUrunKontrol_InputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeAitUrunKontrol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Product_kategoriyeAitUrunKontrol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Product_kategoriyeAitUrunKontrolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisEkle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisEkle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisEkle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisEkleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisUrunIDileSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisUrunIDileSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisUrunIDileSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisUrunIDileSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisIDileSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisIDileSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisIDileSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisIDileSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisCATIDileSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisCATIDileSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisCATIDileSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisCATIDileSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masaninTümSiparisleriniSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masaninTümSiparisleriniSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masaninTümSiparisleriniSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masaninTümSiparisleriniSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisleriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_siparisleriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_siparisleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masayaAitSiparisleriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masayaAitSiparisleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masayaAitSiparisleriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masayaAitSiparisleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_urunKontrol_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_urunKontrol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_urunKontrol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_urunKontrolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masaUrunKontrol_InputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masaUrunKontrol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Orders_masaUrunKontrol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Orders_masaUrunKontrolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_guneAitRaporGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_guneAitRaporGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_guneAitRaporGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_guneAitRaporGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_raporlariGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_raporlariGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_raporlariGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_raporlariGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_guneAitCalisanIsimleri_InputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_guneAitCalisanIsimleri" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DayReport_guneAitCalisanIsimleri_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DayReport_guneAitCalisanIsimleriResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriEkle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriEkle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriEkle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriEkleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriUrunleriyleSil_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriUrunleriyleSil" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriUrunleriyleSil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriUrunleriyleSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriGuncelle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriGuncelle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriBilgileriniGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriBilgileriniGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategoriBilgileriniGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategoriBilgileriniGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategorileriGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategorileriGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategorileriGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategorileriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategorileriSiraliGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategorileriSiraliGetir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Category_kategorileriSiraliGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Category_kategorileriSiraliGetirResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Test">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Test" message="tns:IService1_Test_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/TestResponse" message="tns:IService1_Test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestDataTable">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/TestDataTable" message="tns:IService1_TestDataTable_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/TestDataTableResponse" message="tns:IService1_TestDataTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestDataSet">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/TestDataSet" message="tns:IService1_TestDataSet_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/TestDataSetResponse" message="tns:IService1_TestDataSet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciEkle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciEkle" message="tns:IService1_Users_kullaniciEkle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciEkleResponse" message="tns:IService1_Users_kullaniciEkle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciSil" message="tns:IService1_Users_kullaniciSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciSilResponse" message="tns:IService1_Users_kullaniciSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciGuncelle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciGuncelle" message="tns:IService1_Users_kullaniciGuncelle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciGuncelleResponse" message="tns:IService1_Users_kullaniciGuncelle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullanicilariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullanicilariGetir" message="tns:IService1_Users_kullanicilariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullanicilariGetirResponse" message="tns:IService1_Users_kullanicilariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_garsonlariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_garsonlariGetir" message="tns:IService1_Users_garsonlariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_garsonlariGetirResponse" message="tns:IService1_Users_garsonlariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_yoneticileriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_yoneticileriGetir" message="tns:IService1_Users_yoneticileriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_yoneticileriGetirResponse" message="tns:IService1_Users_yoneticileriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciGiris">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciGiris" message="tns:IService1_Users_kullaniciGiris_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciGirisResponse" message="tns:IService1_Users_kullaniciGiris_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciVarmi">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciVarmi" message="tns:IService1_Users_kullaniciVarmi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciVarmiResponse" message="tns:IService1_Users_kullaniciVarmi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciBilgileriniGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciBilgileriniGetir" message="tns:IService1_Users_kullaniciBilgileriniGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciBilgileriniGetirResponse" message="tns:IService1_Users_kullaniciBilgileriniGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciAdSoyadGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_kullaniciAdSoyadGetir" message="tns:IService1_Users_kullaniciAdSoyadGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_kullaniciAdSoyadGetirResponse" message="tns:IService1_Users_kullaniciAdSoyadGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_tumGarsonlarinAdSoyadlari">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Users_tumGarsonlarinAdSoyadlari" message="tns:IService1_Users_tumGarsonlarinAdSoyadlari_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Users_tumGarsonlarinAdSoyadlariResponse" message="tns:IService1_Users_tumGarsonlarinAdSoyadlari_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaEkle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaEkle" message="tns:IService1_Tables_masaEkle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaEkleResponse" message="tns:IService1_Tables_masaEkle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaSil" message="tns:IService1_Tables_masaSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaSilResponse" message="tns:IService1_Tables_masaSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaGuncelle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaGuncelle" message="tns:IService1_Tables_masaGuncelle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaGuncelleResponse" message="tns:IService1_Tables_masaGuncelle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masalariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masalariGetir" message="tns:IService1_Tables_masalariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masalariGetirResponse" message="tns:IService1_Tables_masalariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_acikMasalariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_acikMasalariGetir" message="tns:IService1_Tables_acikMasalariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_acikMasalariGetirResponse" message="tns:IService1_Tables_acikMasalariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_bosMasalariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_bosMasalariGetir" message="tns:IService1_Tables_bosMasalariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_bosMasalariGetirResponse" message="tns:IService1_Tables_bosMasalariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaBilgileriniGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaBilgileriniGetir" message="tns:IService1_Tables_masaBilgileriniGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaBilgileriniGetirResponse" message="tns:IService1_Tables_masaBilgileriniGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaAc">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaAc" message="tns:IService1_Tables_masaAc_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaAcResponse" message="tns:IService1_Tables_masaAc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaHesapGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaHesapGetir" message="tns:IService1_Tables_masaHesapGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaHesapGetirResponse" message="tns:IService1_Tables_masaHesapGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaDurumGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaDurumGetir" message="tns:IService1_Tables_masaDurumGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaDurumGetirResponse" message="tns:IService1_Tables_masaDurumGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaKapat">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Tables_masaKapat" message="tns:IService1_Tables_masaKapat_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Tables_masaKapatResponse" message="tns:IService1_Tables_masaKapat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunEkle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunEkle" message="tns:IService1_Product_urunEkle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunEkleResponse" message="tns:IService1_Product_urunEkle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunSil" message="tns:IService1_Product_urunSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunSilResponse" message="tns:IService1_Product_urunSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunSiparisleriyleSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunSiparisleriyleSil" message="tns:IService1_Product_urunSiparisleriyleSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunSiparisleriyleSilResponse" message="tns:IService1_Product_urunSiparisleriyleSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoridekiUrunleriSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_kategoridekiUrunleriSil" message="tns:IService1_Product_kategoridekiUrunleriSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_kategoridekiUrunleriSilResponse" message="tns:IService1_Product_kategoridekiUrunleriSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunGuncelle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunGuncelle" message="tns:IService1_Product_urunGuncelle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunGuncelleResponse" message="tns:IService1_Product_urunGuncelle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunleriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunleriGetir" message="tns:IService1_Product_urunleriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunleriGetirResponse" message="tns:IService1_Product_urunleriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_akfitUrunleriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_akfitUrunleriGetir" message="tns:IService1_Product_akfitUrunleriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_akfitUrunleriGetirResponse" message="tns:IService1_Product_akfitUrunleriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeGoreUrunleriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriGetir" message="tns:IService1_Product_kategoriyeGoreUrunleriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriGetirResponse" message="tns:IService1_Product_kategoriyeGoreUrunleriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunleriSiraliGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunleriSiraliGetir" message="tns:IService1_Product_urunleriSiraliGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunleriSiraliGetirResponse" message="tns:IService1_Product_urunleriSiraliGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeGoreUrunleriSiraliGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriSiraliGetir" message="tns:IService1_Product_kategoriyeGoreUrunleriSiraliGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriSiraliGetirResponse" message="tns:IService1_Product_kategoriyeGoreUrunleriSiraliGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunBilgileriniGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunBilgileriniGetir" message="tns:IService1_Product_urunBilgileriniGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunBilgileriniGetirResponse" message="tns:IService1_Product_urunBilgileriniGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunFiyatGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunFiyatGetir" message="tns:IService1_Product_urunFiyatGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunFiyatGetirResponse" message="tns:IService1_Product_urunFiyatGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunDurumGuncelle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_urunDurumGuncelle" message="tns:IService1_Product_urunDurumGuncelle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_urunDurumGuncelleResponse" message="tns:IService1_Product_urunDurumGuncelle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeAitUrunKontrol">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Product_kategoriyeAitUrunKontrol" message="tns:IService1_Product_kategoriyeAitUrunKontrol_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Product_kategoriyeAitUrunKontrolResponse" message="tns:IService1_Product_kategoriyeAitUrunKontrol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisEkle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisEkle" message="tns:IService1_Orders_siparisEkle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisEkleResponse" message="tns:IService1_Orders_siparisEkle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisSil" message="tns:IService1_Orders_siparisSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisSilResponse" message="tns:IService1_Orders_siparisSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisUrunIDileSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisUrunIDileSil" message="tns:IService1_Orders_siparisUrunIDileSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisUrunIDileSilResponse" message="tns:IService1_Orders_siparisUrunIDileSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisIDileSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisIDileSil" message="tns:IService1_Orders_siparisIDileSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisIDileSilResponse" message="tns:IService1_Orders_siparisIDileSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisCATIDileSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisCATIDileSil" message="tns:IService1_Orders_siparisCATIDileSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisCATIDileSilResponse" message="tns:IService1_Orders_siparisCATIDileSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masaninTümSiparisleriniSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_masaninTümSiparisleriniSil" message="tns:IService1_Orders_masaninTümSiparisleriniSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_masaninTümSiparisleriniSilResponse" message="tns:IService1_Orders_masaninTümSiparisleriniSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisleriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_siparisleriGetir" message="tns:IService1_Orders_siparisleriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_siparisleriGetirResponse" message="tns:IService1_Orders_siparisleriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masayaAitSiparisleriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_masayaAitSiparisleriGetir" message="tns:IService1_Orders_masayaAitSiparisleriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_masayaAitSiparisleriGetirResponse" message="tns:IService1_Orders_masayaAitSiparisleriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_urunKontrol">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_urunKontrol" message="tns:IService1_Orders_urunKontrol_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_urunKontrolResponse" message="tns:IService1_Orders_urunKontrol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masaUrunKontrol">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Orders_masaUrunKontrol" message="tns:IService1_Orders_masaUrunKontrol_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Orders_masaUrunKontrolResponse" message="tns:IService1_Orders_masaUrunKontrol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_guneAitRaporGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/DayReport_guneAitRaporGetir" message="tns:IService1_DayReport_guneAitRaporGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/DayReport_guneAitRaporGetirResponse" message="tns:IService1_DayReport_guneAitRaporGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_raporlariGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/DayReport_raporlariGetir" message="tns:IService1_DayReport_raporlariGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/DayReport_raporlariGetirResponse" message="tns:IService1_DayReport_raporlariGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_guneAitCalisanIsimleri">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/DayReport_guneAitCalisanIsimleri" message="tns:IService1_DayReport_guneAitCalisanIsimleri_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/DayReport_guneAitCalisanIsimleriResponse" message="tns:IService1_DayReport_guneAitCalisanIsimleri_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriEkle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategoriEkle" message="tns:IService1_Category_kategoriEkle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategoriEkleResponse" message="tns:IService1_Category_kategoriEkle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategoriSil" message="tns:IService1_Category_kategoriSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategoriSilResponse" message="tns:IService1_Category_kategoriSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriUrunleriyleSil">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategoriUrunleriyleSil" message="tns:IService1_Category_kategoriUrunleriyleSil_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategoriUrunleriyleSilResponse" message="tns:IService1_Category_kategoriUrunleriyleSil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriGuncelle">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategoriGuncelle" message="tns:IService1_Category_kategoriGuncelle_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategoriGuncelleResponse" message="tns:IService1_Category_kategoriGuncelle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriBilgileriniGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategoriBilgileriniGetir" message="tns:IService1_Category_kategoriBilgileriniGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategoriBilgileriniGetirResponse" message="tns:IService1_Category_kategoriBilgileriniGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategorileriGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategorileriGetir" message="tns:IService1_Category_kategorileriGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategorileriGetirResponse" message="tns:IService1_Category_kategorileriGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategorileriSiraliGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/IService1/Category_kategorileriSiraliGetir" message="tns:IService1_Category_kategorileriSiraliGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IService1/Category_kategorileriSiraliGetirResponse" message="tns:IService1_Category_kategorileriSiraliGetir_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IService1" type="tns:IService1">
+    <wsp:PolicyReference URI="#NetTcpBinding_IService1_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestDataTable">
+      <soap12:operation soapAction="http://tempuri.org/IService1/TestDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestDataSet">
+      <soap12:operation soapAction="http://tempuri.org/IService1/TestDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciEkle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciEkle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullanicilariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullanicilariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_garsonlariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_garsonlariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_yoneticileriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_yoneticileriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciGiris">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciGiris" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciVarmi">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciVarmi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciBilgileriniGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciBilgileriniGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_kullaniciAdSoyadGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_kullaniciAdSoyadGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_tumGarsonlarinAdSoyadlari">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Users_tumGarsonlarinAdSoyadlari" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaEkle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaEkle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masalariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masalariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_acikMasalariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_acikMasalariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_bosMasalariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_bosMasalariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaBilgileriniGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaBilgileriniGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaAc">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaAc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaHesapGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaHesapGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaDurumGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaDurumGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tables_masaKapat">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Tables_masaKapat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunEkle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunEkle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunSiparisleriyleSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunSiparisleriyleSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoridekiUrunleriSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_kategoridekiUrunleriSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_akfitUrunleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_akfitUrunleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeGoreUrunleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunleriSiraliGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunleriSiraliGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeGoreUrunleriSiraliGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_kategoriyeGoreUrunleriSiraliGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunBilgileriniGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunBilgileriniGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunFiyatGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunFiyatGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_urunDurumGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_urunDurumGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Product_kategoriyeAitUrunKontrol">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Product_kategoriyeAitUrunKontrol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisEkle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisEkle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisUrunIDileSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisUrunIDileSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisIDileSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisIDileSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisCATIDileSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisCATIDileSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masaninTümSiparisleriniSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_masaninTümSiparisleriniSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_siparisleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_siparisleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masayaAitSiparisleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_masayaAitSiparisleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_urunKontrol">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_urunKontrol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Orders_masaUrunKontrol">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Orders_masaUrunKontrol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_guneAitRaporGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/DayReport_guneAitRaporGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_raporlariGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/DayReport_raporlariGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayReport_guneAitCalisanIsimleri">
+      <soap12:operation soapAction="http://tempuri.org/IService1/DayReport_guneAitCalisanIsimleri" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriEkle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategoriEkle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategoriSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriUrunleriyleSil">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategoriUrunleriyleSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategoriGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategoriBilgileriniGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategoriBilgileriniGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategorileriGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategorileriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Category_kategorileriSiraliGetir">
+      <soap12:operation soapAction="http://tempuri.org/IService1/Category_kategorileriSiraliGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="NetTcpBinding_IService1" binding="tns:NetTcpBinding_IService1">
+      <soap12:address location="net.tcp://192.168.1.111:7755/Service" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://192.168.1.111:7755/Service</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
